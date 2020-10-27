@@ -5,18 +5,20 @@ import Startpage from './Startpage.js'
 
 function App()
 {
-  return(
-    <div>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Startpage/>
-          </Route>
+	return(
+		<div>
+			<Router>
+				<Switch>
+					<Route exact path="/">
+						<Startpage/>
+					</Route>
 
-        </Switch>
-      </Router>
-    </div>
-  );
+
+
+				</Switch>
+			</Router>
+		</div>
+	);
 }
 
 export default App;
