@@ -12,8 +12,28 @@ const Startpage = () =>
 			<TopBar/>
 
 
+			<div className="page">
+				<h1>Home</h1>
 
-			<h1>Startpage</h1>
+				<p className="text">
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+					text text text text text text text text text
+				</p>
+			</div>
+
 
 
 		</div>

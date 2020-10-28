@@ -5,13 +5,14 @@ const TopBar = () =>
 {
 	return(
 		<div className="top-bar">
-			<MenuElement title="Start"/>
 
-			<MenuElement title="About"/>
+			<MenuElement title="Home" page=""/>
 
-			<MenuElement title="Projects"/>
+			<MenuElement title="About me" page="about"/>
 
-			<MenuElement title="Contact"/>
+			<MenuElement title="Projects" page="projects"/>
+
+			<MenuElement title="Contact" page="contact"/>
 		
 		</div>
 	)

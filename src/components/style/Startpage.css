@@ -1,7 +1,19 @@
 body
 {
-    background-color: #002d43;
+    background-color: #163341;
     color: white;
 
     font-family: 'Ubuntu';
+}
+
+.page
+{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.text
+{
+    line-height: 22px;
+    font-size: 18px;
 }
