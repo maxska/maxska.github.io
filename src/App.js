@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import Startpage from './components/Startpage.js';
+import Home from './components/Home.js';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
@@ -13,7 +13,7 @@ function App()
 			<Router>
 				<Switch>
 					<Route exact path="/">
-						<Startpage/>
+						<Home/>
 					</Route>
 
 					<Route path="/about">

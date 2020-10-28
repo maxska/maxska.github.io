@@ -4,21 +4,22 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './style/Home.css';
 
 import TopBar from './TopBar.js';
-import AboutText from './texts/AboutText.js';
+import HomeText from './texts/HomeText.js';
 
-const About = () =>
+const Home = () =>
 {
 	return(
 		<div>
 			<TopBar/>
 
 			<div className="page">
-				<h1>About</h1>
+				<h1>Home</h1>
 
-				<AboutText/>
+				<HomeText/>
 			</div>
+
 		</div>
 	)
 }
 
-export default About;
+export default Home;

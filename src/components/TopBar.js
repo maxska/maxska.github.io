@@ -1,19 +1,28 @@
 import './style/TopBar.css';
 import MenuElement from './MenuElement.js';
 
+import {Link, useParams} from 'react-router-dom';
+import {useLocation} from 'react-router-dom';
+
 const TopBar = () =>
 {
 	return(
 		<div className="top-bar">
 
-			<MenuElement title="Home" page=""/>
+			<Link to="/" className="logo">
+				maxska
+			</Link>
 
-			<MenuElement title="About me" page="about"/>
+			<div className="links">
+				<MenuElement title="Home" page=""/>
 
-			<MenuElement title="Projects" page="projects"/>
+				<MenuElement title="About me" page="about"/>
 
-			<MenuElement title="Contact" page="contact"/>
-		
+				<MenuElement title="Projects" page="projects"/>
+
+				<MenuElement title="Contact" page="contact"/>
+			</div>
+
 		</div>
 	)
 }
