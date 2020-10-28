@@ -8,7 +8,7 @@
   padding-right: 20px;
 }
 
-.inner:hover
+.menu-element-inner:hover
 {
   background-color: #6f858f;
   border-top-left-radius: 10px;
