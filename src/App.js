@@ -17,9 +17,16 @@ function App()
 					</Route>
 
 					<Route path="/about">
-						<Startpage/>
+						<About/>
 					</Route>
 
+					<Route path="/projects">
+						<Projects/>
+					</Route>
+
+					<Route path="/contact">
+						<Contact/>
+					</Route>
 
 
 				</Switch>
