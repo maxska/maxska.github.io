@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import './Startpage.css'
+import './style/Startpage.css'
 
 import TopBar from './TopBar.js'
 

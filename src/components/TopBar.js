@@ -1,4 +1,4 @@
-import './TopBar.css';
+import './style/TopBar.css';
 import MenuElement from './MenuElement.js';
 
 const TopBar = () =>
