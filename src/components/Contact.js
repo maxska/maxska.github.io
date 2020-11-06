@@ -10,10 +10,9 @@ const Contact = () =>
 {
 	return(
 		<div>
-			<TopBar/>
       
 			<div className="page">
-				<h1>Contact</h1>
+				<h1 className="heading">Contact</h1>
 
 				<ContactText/>
 				

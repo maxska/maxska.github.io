@@ -1,0 +1,19 @@
+
+.inner-navbar
+{
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+}
+
+.inner-navbar *
+{
+  display: inline-block;
+}
+
+.inner-navbar-element
+{
+  background-color: #163341;
+  margin: 10px;
+  padding: 10px;
+}

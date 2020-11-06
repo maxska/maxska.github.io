@@ -10,10 +10,9 @@ const Projects = () =>
 {
 	return(
 		<div>
-			<TopBar/>
       
 			<div className="page">
-				<h1>Projects</h1>
+				<h1 className="heading">Projects</h1>
 
 				<ProjectsText/>
 			</div>

@@ -6,14 +6,24 @@ import About from './components/About.js';
 import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
 
+import TopBar from './components/TopBar.js';
+
 function App()
 {
 	return(
 		<div>
+			
 			<Router>
+
+				<TopBar/>
+
 				<Switch>
 					<Route exact path="/">
 						<Home/>
+					</Route>
+
+					<Route path="/about/work">
+						<About/>
 					</Route>
 
 					<Route path="/about">

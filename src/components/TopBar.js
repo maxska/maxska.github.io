@@ -16,7 +16,7 @@ const TopBar = () =>
 			<div className="links">
 				<MenuElement title="Home" page=""/>
 
-				<MenuElement title="About me" page="about"/>
+				<MenuElement title="About me" page="about/work"/>
 
 				<MenuElement title="Projects" page="projects"/>
 
