@@ -32,29 +32,16 @@ const About = () =>
 	return(
 		<div>
 
-			<div className="page">
+			<div className="page" style={{maxWidth: "800px"}}>
 				<h1 className="heading" className="inner-navbar-title">About me</h1>
 
 				<Router>
 					
 					<div className="inner-navbar">
-
-						{/*
-						<Link to="/about/work" className="inner-navbar-element dynamic-style" id="work" onClick={() => setActiveTab("work")}>
-							Work & Student work
-						</Link>
-						*/}
-
-
+						
 						<MenuElement title="Work & Student work" page="about/work" type="local"/>
 
 						<MenuElement title="Education" page="about/education" type="local"/>
-
-						{/*
-						<Link to="/about/education" className="inner-navbar-element" id="education" onClick={() => setActiveTab("education")}>
-							Education
-						</Link>
-						*/}
 
 					</div>
 
