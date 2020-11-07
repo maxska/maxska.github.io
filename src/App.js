@@ -1,21 +1,29 @@
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
+import "./App.css";
+
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
 
 import TopBar from './components/TopBar.js';
+import BottomBar from './components/BottomBar.js';
 
 function App()
 {
 	return(
-		<div>
+		<div className="content-wrapper">
 			
 			<Router>
 
+				<div>
+
+
 				<TopBar/>
+
+				
 
 				<Switch>
 					<Route exact path="/">
@@ -37,10 +45,16 @@ function App()
 					<Route path="/contact">
 						<Contact/>
 					</Route>
-
-
 				</Switch>
+				
+				</div>
+
+			
+				<BottomBar/>
+				
+
 			</Router>
+
 		</div>
 	);
 }

@@ -1,6 +1,5 @@
 body
 {
-    background-color: #163341;
     color: white;
 
     font-family: 'Ubuntu';
@@ -10,6 +9,8 @@ body
 {
     max-width: 600px;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
