@@ -8,13 +8,6 @@ import './style/About.css';
 import TopBar from './TopBar.js';
 import AboutText from './texts/AboutText.js';
 
-
-import StudentTable from "./texts/AboutText_StudentTable.js";
-import WorkTable from "./texts/AboutText_WorkTable.js";
-import EducationTable_MT from "./texts/AboutText_EducationTable_MT.js";
-import EducationTable_distance from "./texts/AboutText_EducationTable_distance.js";
-import EducationTable_D from "./texts/AboutText_EducationTable_D.js";
-
 const About = () =>
 {
 	return(
