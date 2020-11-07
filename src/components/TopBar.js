@@ -14,13 +14,13 @@ const TopBar = () =>
 			</Link>
 
 			<div className="links">
-				<MenuElement title="Home" page=""/>
+				<MenuElement title="Home" page="" type="global"/>
 
-				<MenuElement title="About me" page="about/work"/>
+				<MenuElement title="About me" page="about/work" type="global"/>
 
-				<MenuElement title="Projects" page="projects"/>
+				<MenuElement title="Projects" page="projects" type="global"/>
 
-				<MenuElement title="Contact" page="contact"/>
+				<MenuElement title="Contact" page="contact" type="global"/>
 			</div>
 
 		</div>

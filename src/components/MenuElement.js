@@ -2,11 +2,26 @@ import './style/MenuElement.css';
 import {Link, useParams} from 'react-router-dom';
 import {useLocation} from 'react-router-dom';
 
+
+const getParentPage = (address) =>
+{
+	let addressSplit = address.split("/")
+	return addressSplit[1];
+}
+
+
+
 const MenuElement = (props) =>
 {
-
 	let activeTab = useLocation().pathname;
 	let thisPage = "/" + props.page;
+
+	if (props.type === "global")
+	{
+		thisPage = getParentPage(thisPage);
+		activeTab = getParentPage(activeTab);
+	}
+
 
 	const isActiveTab = () => 
 	{
@@ -25,7 +40,7 @@ const MenuElement = (props) =>
 
 	return(
 		<div>
-			<Link to={props.page}>
+			<Link to={"/" + props.page}>
 				{
 					thisPage === activeTab
 					&&

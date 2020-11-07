@@ -12,7 +12,7 @@ const Home = () =>
 		<div>
 
 			<div className="page">
-				<h1 className="heading">Home 1</h1>
+				<h1 className="heading">Home</h1>
 
 				<HomeText/>
 			</div>
