@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import { Link } from "react-router-dom";
+import { useState } from 'react';
 
 import './style/Home.css';
 import './style/About.css';
@@ -15,25 +16,36 @@ import MenuElement from './MenuElement';
 
 const About = () =>
 {
-	let activeTab;
 
-	const setActiveTab = (page) => 
+	let [language, setLanguage] = useState("english");
+
+	const switchLanguage = () => 
 	{
-		activeTab = page;
+		alert("Switching from " + language);
 
-		document.getElementById(page).classList.add("dynamic-style")
-		document.getElementsByClassName(page + "-outer").classList.add("invisible")
+		console.log(1)
 
-		let otherPage = page === "work" ? "education" : "work";
-		document.getElementById(otherPage).classList.remove("dynamic-style");
-		document.getElementsByClassName(otherPage + "-outer").classList.remove("invisible")
+		if (language === "english")
+		{
+			setLanguage("swedish")
+		}
+		else
+		{
+			setLanguage("english")
+		}
+
+		console.log(2)
 	}
 
 	return(
 		<div>
 
-			<div className="page" style={{maxWidth: "800px"}}>
+			<div className="page" style={{maxWidth: "600px"}}>
 				<h1 className="heading" className="inner-navbar-title">About me</h1>
+
+				<div className="language-switch" onClick={() => switchLanguage()}>
+					CHANGE LANGAUGE
+				</div>
 
 				<Router>
 					
@@ -46,7 +58,7 @@ const About = () =>
 					</div>
 
 				
-					<AboutText/>
+					<AboutText language={language}/>
 
 				</Router>
 				

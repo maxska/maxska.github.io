@@ -2,7 +2,7 @@ body
 {
     color: white;
 
-    font-family: 'Ubuntu';
+    font-family: 'Ubuntu', Arial, Verdana, sans-serif;
 }
 
 .page
