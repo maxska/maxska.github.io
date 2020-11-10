@@ -45,3 +45,12 @@
 
   margin-left: 20px;
 }
+
+@media screen and (max-width: 380px)
+{
+  .links
+  {
+    margin-left: 10px
+  }
+}
+

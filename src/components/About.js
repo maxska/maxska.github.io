@@ -17,48 +17,19 @@ import SweFlag from './texts/images/swe-flag.png';
 
 const About = () =>
 {
-	let dynamicFlag = {
-		backgroundImage: `url(${EngFlag})`
-	}
 
 	let [language, setLanguage] = useState("english");
 
-	let [languageText, setLanguageText] = useState("ENG");
-
-	let [backImg, setBackImg] = useState("url(" + EngFlag + ")");
-
-
-
 	const switchLanguage = () => 
 	{
-		console.log(1)
-
-		console.log("=====================test======================")
-
 		if (language === "english")
 		{
-			setLanguage("swedish")
-			
-			//document.getElementById("language-switch").style.backgroundImage = `url(${EngFlag})`;
-			setBackImg(`url(${EngFlag})`)
-
-			setLanguageText("ENG");
+			setLanguage("swedish");
 		}
 		else
 		{
-			setLanguage("english")
-
-			//document.getElementById("language-switch").style.backgroundImage = `url(${SweFlag})`;
-			//setBackImg(`url(${SweFlag})`)
-
-			setBackImg(`url(${SweFlag})`)
-
-			setLanguageText("SWE");
-
-			//document.getElementById("language-switch").forceUpdate();
+			setLanguage("english");
 		}
-
-		console.log(2)
 	}
 
 

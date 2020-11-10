@@ -123,4 +123,13 @@
   }
 }
 
+@media screen and (max-width: 380px)
+{
+  .menu-element-inner
+  {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 

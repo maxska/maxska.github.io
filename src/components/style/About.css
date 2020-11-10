@@ -68,6 +68,9 @@
   border-top-right-radius: 10px;
 
   margin-top: 50px;
+
+
+  position: relative;
 }
 
 .heading-wrapper h1
@@ -112,6 +115,10 @@
   border-radius: 5px;
   margin: 5px;
   margin-left: 120px;
+
+
+  position: absolute;
+  right: 1px;
 }
 
 .temp-button:hover
@@ -123,4 +130,21 @@
 {
   background-color: white;
   color: black;
+}
+
+
+@media screen and (max-width: 500px)
+{
+  .temp-button
+  {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 430px)
+{
+  .temp-button
+  {
+    font-size: 12px;
+  }
 }
