@@ -6,6 +6,10 @@
   display: inline-block;  
   padding-left: 20px; 
   padding-right: 20px;
+
+  margin-top: 20px;
+
+
 }
 
 .menu-element-inner:hover
@@ -13,10 +17,7 @@
   background-color: #6f858f;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  
-
 }
-
 
 .active-tab-extra
 {
@@ -39,3 +40,87 @@
 {
   background-color: #163341;
 }
+
+
+.menu-element-text
+{
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 580px)
+{
+  .menu-element-text
+  {
+    font-size: 20px;
+
+    margin-top: 22px;
+    margin-bottom: 21px;
+  }
+
+  .menu-element-inner 
+  {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    margin-top: 0;
+  }
+}
+
+
+@media screen and (max-width: 500px)
+{
+  .menu-element-text
+  {
+
+    font-size: 15px;
+
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+
+  .menu-element-inner 
+  {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+@media screen and (max-width: 430px)
+{
+  .menu-element-text
+  {
+
+    font-size: 12px;
+
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+
+  .menu-element-inner 
+  {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+@media screen and (max-width: 380px)
+{
+  .menu-element-inner
+  {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10x;
+  }
+}
+
+

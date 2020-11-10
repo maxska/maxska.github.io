@@ -33,7 +33,8 @@ const MenuElement = (props) =>
 				backgroundColor: "#163341",
 
 				paddingLeft: "10px",
-				paddingRight: "10px"
+				paddingRight: "10px",
+
 			}
 		}
 	}
@@ -46,13 +47,13 @@ const MenuElement = (props) =>
 					&&
 					<div className="menu-element-outer">
 						<div className="active-tab-extra active-tab-extra-left">
-							<h2>&nbsp;</h2>
+							<span className="menu-element-text">&nbsp;</span>
 						</div>
 					</div>
 				}
 
 				<div className="menu-element-inner" style={isActiveTab()}>
-					<h2>{props.title}</h2>
+					<span className="menu-element-text">{props.title}</span>
 				</div>
 
 				{
@@ -60,7 +61,7 @@ const MenuElement = (props) =>
 					&&
 					<div className="menu-element-outer">
 						<div className="active-tab-extra active-tab-extra-right">
-							<h2>&nbsp;</h2>
+							<span className="menu-element-text">&nbsp;</span>
 						</div>
 					</div>
 				}
