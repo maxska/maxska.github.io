@@ -9,7 +9,7 @@ const TopBar = () =>
 	return(
 		<div className="top-bar">
 
-			<Link to="/" className="logo">
+			<Link to="" className="logo">
 				maxska
 			</Link>
 

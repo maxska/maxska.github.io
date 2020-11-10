@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, HashRouter} from 'react-router-dom';
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
@@ -33,6 +33,8 @@ const About = () =>
 	{
 		console.log(1)
 
+		console.log("=====================test======================")
+
 		if (language === "english")
 		{
 			setLanguage("swedish")
@@ -64,9 +66,7 @@ const About = () =>
 
 	return(
 		<div>
-
 			<div className="page" style={{maxWidth: "600px"}}>
-
 
 				<div className="heading-wrapper">
 
@@ -78,13 +78,11 @@ const About = () =>
 						Change language in<br/>the tables below
 					</span>
 
-
-
-
 				</div>
 				
 
-				<Router>
+
+				<HashRouter>
 					
 					<div className="inner-navbar">
 						
@@ -97,9 +95,7 @@ const About = () =>
 				
 					<AboutText language={language}/>
 
-				</Router>
-				
-
+				</HashRouter>
 
 			</div>
 		</div>

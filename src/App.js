@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Switch, Route, HashRouter} from 'react-router-dom';
 
 import "./App.css";
 
@@ -16,7 +16,7 @@ function App()
 	return(
 		<div className="content-wrapper">
 			
-			<Router>
+			<HashRouter basename="/">
 
 					<TopBar/>
 
@@ -45,7 +45,7 @@ function App()
 				<BottomBar/>
 				
 
-			</Router>
+			</HashRouter>
 
 		</div>
 	);
