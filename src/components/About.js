@@ -12,46 +12,83 @@ import AboutText from './texts/AboutText.js';
 import {useLocation} from 'react-router-dom';
 import MenuElement from './MenuElement';
 
-
+import EngFlag from './texts/images/eng-flag.png';
+import SweFlag from './texts/images/swe-flag.png';
 
 const About = () =>
 {
+	let dynamicFlag = {
+		backgroundImage: `url(${EngFlag})`
+	}
 
 	let [language, setLanguage] = useState("english");
 
+	let [languageText, setLanguageText] = useState("ENG");
+
+	let [backImg, setBackImg] = useState("url(" + EngFlag + ")");
+
+
+
 	const switchLanguage = () => 
 	{
-		alert("Switching from " + language);
-
 		console.log(1)
 
 		if (language === "english")
 		{
 			setLanguage("swedish")
+			
+			//document.getElementById("language-switch").style.backgroundImage = `url(${EngFlag})`;
+			setBackImg(`url(${EngFlag})`)
+
+			setLanguageText("ENG");
 		}
 		else
 		{
 			setLanguage("english")
+
+			//document.getElementById("language-switch").style.backgroundImage = `url(${SweFlag})`;
+			//setBackImg(`url(${SweFlag})`)
+
+			setBackImg(`url(${SweFlag})`)
+
+			setLanguageText("SWE");
+
+			//document.getElementById("language-switch").forceUpdate();
 		}
 
 		console.log(2)
 	}
 
+
+
+
 	return(
 		<div>
 
 			<div className="page" style={{maxWidth: "600px"}}>
-				<h1 className="heading" className="inner-navbar-title">About me</h1>
 
-				<div className="language-switch" onClick={() => switchLanguage()}>
-					CHANGE LANGAUGE
+
+				<div className="heading-wrapper">
+
+					<h1 className="heading" className="inner-navbar-title">About me</h1>
+
+					<span 
+					className="temp-button" 
+					onClick={() => switchLanguage()}>
+						Change language in<br/>the tables below
+					</span>
+
+
+
+
 				</div>
+				
 
 				<Router>
 					
 					<div className="inner-navbar">
 						
-						<MenuElement title="Work & Student work" page="about/work" type="local"/>
+						<MenuElement title="Work &amp; Student work" page="about/work" type="local"/>
 
 						<MenuElement title="Education" page="about/education" type="local"/>
 
