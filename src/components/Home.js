@@ -11,8 +11,11 @@ const Home = () =>
 	return(
 		<div>
 
-			<div className="page">
+			<div className="page" style={{marginTop: "40px"}}>
+				
+				{/* 
 				<h1 className="heading">Home</h1>
+				*/}
 
 				<HomeText/>
 			</div>
