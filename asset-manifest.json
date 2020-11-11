@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f94674a4.chunk.css",
-    "main.js": "/static/js/main.0a3d723e.chunk.js",
-    "main.js.map": "/static/js/main.0a3d723e.chunk.js.map",
+    "main.css": "/static/css/main.d77c4a32.chunk.css",
+    "main.js": "/static/js/main.e020f7da.chunk.js",
+    "main.js.map": "/static/js/main.e020f7da.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c592a9ce.js",
     "runtime-main.js.map": "/static/js/runtime-main.c592a9ce.js.map",
     "static/js/2.c52cc2ec.chunk.js": "/static/js/2.c52cc2ec.chunk.js",
@@ -10,13 +10,14 @@
     "static/js/3.6bc2d698.chunk.js": "/static/js/3.6bc2d698.chunk.js",
     "static/js/3.6bc2d698.chunk.js.map": "/static/js/3.6bc2d698.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.f94674a4.chunk.css.map": "/static/css/main.f94674a4.chunk.css.map",
-    "static/js/2.c52cc2ec.chunk.js.LICENSE.txt": "/static/js/2.c52cc2ec.chunk.js.LICENSE.txt"
+    "static/css/main.d77c4a32.chunk.css.map": "/static/css/main.d77c4a32.chunk.css.map",
+    "static/js/2.c52cc2ec.chunk.js.LICENSE.txt": "/static/js/2.c52cc2ec.chunk.js.LICENSE.txt",
+    "static/media/maxska-logo.3220b95a.png": "/static/media/maxska-logo.3220b95a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c592a9ce.js",
     "static/js/2.c52cc2ec.chunk.js",
-    "static/css/main.f94674a4.chunk.css",
-    "static/js/main.0a3d723e.chunk.js"
+    "static/css/main.d77c4a32.chunk.css",
+    "static/js/main.e020f7da.chunk.js"
   ]
 }
