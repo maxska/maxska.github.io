@@ -3,15 +3,24 @@ import MenuElement from './MenuElement.js';
 
 import {Link, useParams} from 'react-router-dom';
 import {useLocation} from 'react-router-dom';
+import MainLogo from './texts/images/maxska-logo.png';
 
 const TopBar = () =>
 {
 	return(
 		<div className="top-bar">
 
+
+
 			<Link to="" className="logo">
-				maxska
+				<img src={MainLogo} alt="maxska personal website"
+				className="logo-img"
+				style={{
+					width: "200px"
+				}}
+				/>
 			</Link>
+
 
 			<div className="links">
 				<MenuElement title="Home" page="" type="global"/>
