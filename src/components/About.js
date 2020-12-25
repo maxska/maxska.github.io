@@ -1,25 +1,17 @@
-import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route, HashRouter} from 'react-router-dom';
-import { Link } from "react-router-dom";
+
+import {BrowserRouter as Switch, Route, HashRouter} from 'react-router-dom';
 import { useState } from 'react';
 
 import './style/Home.css';
 import './style/About.css';
-
-import TopBar from './TopBar.js';
-
-
-import {useLocation} from 'react-router-dom';
 import MenuElement from './MenuElement';
-
 
 import StudentWorkTable from "./StudentWorkTable.js";
 import WorkTable from "./WorkTable.js";
 import './style/AboutText.css';
 
 import EducationTable from "./EducationTable.js";
-import EducationTable_D from "./EducationTable_D.js";
-
+import EducationTableD from "./EducationTable_D.js";
 
 import MT_table from "./texts/MT.json";
 import other_table from "./texts/other.json";
@@ -50,15 +42,10 @@ const About = () =>
 	const switchLanguage = () => 
 	{
 		if (language === "english")
-		{
 			setLanguage("swedish");
-		}
 		else
-		{
 			setLanguage("english");
-		}
 	}
-
 
 	
 
@@ -106,7 +93,6 @@ const About = () =>
 
 
 
-
 						<Route path="/about/education">
 							<div className="education-table-wrapper">
 
@@ -118,7 +104,6 @@ const About = () =>
 									{AboutTexts["MT"].text}
 									<InfoLinks infotext={AboutTexts["MT"].infotext} link={AboutTexts["MT"].link} link_swe={AboutTexts["MT"].link_swe}/>
 								</p>
-								
 
 								<EducationTable table={MT_table[0]} language={language}/>
 								
@@ -126,9 +111,7 @@ const About = () =>
 
 								<EducationTable table={MT_table[2]} language={language}/>
 
-
 								<hr style={{color: "white", marginTop: "40px", marginBottom: "20px"}}/>
-								
 
 								<p>
 									{AboutTexts["other"].text}
@@ -136,7 +119,6 @@ const About = () =>
 
 								<EducationTable table={other_table[0]} language={language}/>
 								
-
 								<hr style={{color: "white", marginTop: "40px", marginBottom: "20px"}}/>
 
 								<p>
@@ -148,7 +130,7 @@ const About = () =>
 									{AboutTexts["D"].extra_info}
 								</p>
 
-								<EducationTable_D table={D_table[0]} language={language}/>
+								<EducationTableD table={D_table[0]} language={language}/>
 
 
 							</div>

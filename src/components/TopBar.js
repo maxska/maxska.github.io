@@ -1,8 +1,7 @@
 import './style/TopBar.css';
 import MenuElement from './MenuElement.js';
 
-import {Link, useParams} from 'react-router-dom';
-import {useLocation} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import MainLogo from './texts/images/maxska-logo.png';
 
 const TopBar = () =>

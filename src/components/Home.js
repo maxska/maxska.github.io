@@ -1,9 +1,4 @@
-import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
 import './style/Home.css';
-
-import TopBar from './TopBar.js';
 import HomeText from './texts/HomeText.js';
 
 const Home = () =>
@@ -12,11 +7,6 @@ const Home = () =>
 		<div>
 
 			<div className="page" style={{marginTop: "40px"}}>
-				
-				{/* 
-				<h1 className="heading">Home</h1>
-				*/}
-
 				<HomeText/>
 			</div>
 

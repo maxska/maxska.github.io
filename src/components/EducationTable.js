@@ -7,7 +7,7 @@ const TableHeader = (props) =>
   return (
     <div>
       {
-        props.language == "english"
+        props.language === "english"
         &&
         <div className="table-row table-row-header">
           <div style={{flex: "0 0 80px", backgroundColor: "#5c707a", paddingTop: "5px", paddingBottom: "5px"}} className="table-row-element">Course code</div>
@@ -21,7 +21,7 @@ const TableHeader = (props) =>
         </div>
       }
       {
-        props.language == "swedish"
+        props.language === "swedish"
         &&
         <div className="table-row table-row-header">
           <div style={{flex: "0 0 80px", backgroundColor: "#5c707a"}} className="table-row-element">Kurskod</div>

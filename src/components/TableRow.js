@@ -7,7 +7,7 @@ const TableRow = (props) =>
 
   const getTitle = () =>
   {
-    if (props.language == "english")
+    if (props.language === "english")
     {
       return props.title;
     }
@@ -19,7 +19,7 @@ const TableRow = (props) =>
     // if language is not swedish return props.field
     // else
 
-    if (props.language == "english")
+    if (props.language === "english")
     {
       return props.field;
     }
@@ -44,7 +44,7 @@ const TableRow = (props) =>
 
   const getDescription = () =>
   {
-    if (props.language == "english")
+    if (props.language === "english")
     {
       return props.description;
     }
@@ -53,7 +53,7 @@ const TableRow = (props) =>
 
   const getColor = () =>
   {
-    if (props.unfinished == "true")
+    if (props.unfinished === "true")
     {
       return "#4ecdff";
     }
@@ -89,7 +89,7 @@ const TableRow = (props) =>
         showDescription 
         &&
           
-        <div className="table-row" style={{width: "100%", color: "#fae2b4", marginTop: "5px", marginBottom: "20px"}}>
+        <div className="table-row" style={{width: "100%", color: "white", marginTop: "5px", marginBottom: "20px"}}>
 
           {
             console.log(document.getElementById(props.courseCode).getElementsByTagName("div")[0].style.backgroundColor)
@@ -101,22 +101,22 @@ const TableRow = (props) =>
             {
               props.descriptionLink
               &&
-              props.language == "english"
+              props.language === "english"
               &&
               <span>
                 <br/>
-                <span style={{color: "white"}}>Description from</span>&nbsp;<a href={props.descriptionLink} target="_blank">here</a>.
+                <span style={{color: "#fae2b4"}}>Description from</span>&nbsp;<a href={props.descriptionLink} target="_blank">here</a>.
               </span>
 
             }
             {
               props.descriptionLink
               &&
-              props.language == "swedish"
+              props.language === "swedish"
               &&
               <span>
                 <br/>
-                <span style={{color: "white"}}>Beskrivningen kommer</span>&nbsp;<a href={props.descriptionLink_swe} target="_blank">härifrån</a>.
+                <span style={{color: "#fae2b4"}}>Beskrivningen kommer</span>&nbsp;<a href={props.descriptionLink_swe} target="_blank">härifrån</a>.
               </span>
             }
           </p>

@@ -1,10 +1,4 @@
-import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-
-import './style/Home.css'
-
-import TopBar from './TopBar.js'
-
+import './style/Home.css';
 
 import "./style/ProjectsText.css";
 import ProjectsTexts from "./texts/ProjectsTexts";

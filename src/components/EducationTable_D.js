@@ -1,12 +1,12 @@
 
 import TableRow from "./TableRow.js";
 
-const TableHeader_D = (props) =>
+const TableHeaderD = (props) =>
 {
   return (
     <div>
       {
-        props.language == "english"
+        props.language === "english"
         &&
         <div className="table-row table-row-header">
           <div style={{flex: "0 0 80px", backgroundColor: "#5c707a", paddingTop: "5px", paddingBottom: "5px"}} className="table-row-element">Course code</div>
@@ -22,7 +22,7 @@ const TableHeader_D = (props) =>
         </div>
       }
       {
-        props.language == "swedish"
+        props.language === "swedish"
         &&
         <div className="table-row table-row-header">
           <div style={{flex: "0 0 80px", backgroundColor: "#5c707a"}} className="table-row-element">Kurskod</div>
@@ -60,10 +60,10 @@ const EducationTable_D = (props) =>
       </div>
       
       <div className="table-row-wrapper">
-        <TableHeader_D language={props.language}/>
+        <TableHeaderD language={props.language}/>
         {
           props.table.courses.map(
-            course => { return(
+            course => {return(
               <TableRow language={props.language}
                         courseCode={course.code}
                         hp={course.hp}

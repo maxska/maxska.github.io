@@ -1,8 +1,4 @@
 import './style/BottomBar.css';
-import MenuElement from './MenuElement.js';
-
-import {Link, useParams} from 'react-router-dom';
-import {useLocation} from 'react-router-dom';
 
 import BottomBarText from "./texts/BottomBarText.js";
 

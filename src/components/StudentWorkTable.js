@@ -6,7 +6,7 @@ const StudentWorkTable = (props) =>
   return(
     <table className="timeline-table">
       {
-        props.language == "english"
+        props.language === "english"
         &&
         <tr>
           <th>
@@ -18,7 +18,7 @@ const StudentWorkTable = (props) =>
         </tr>
       }
       {
-        props.language == "swedish"
+        props.language === "swedish"
         &&
         <tr>
           <th>
@@ -37,12 +37,12 @@ const StudentWorkTable = (props) =>
             <tr>
               <td>
                 {
-                  props.language == "english"
+                  props.language === "english"
                   &&
                   item.period
                 }
                 {
-                  props.language == "swedish"
+                  props.language === "swedish"
                   &&
                   item.period_swe
                 }
@@ -51,24 +51,24 @@ const StudentWorkTable = (props) =>
                 <b>
 
                   {
-                    props.language == "english"
+                    props.language === "english"
                     &&
                     item.title
                   }
                   {
-                    props.language == "swedish"
+                    props.language === "swedish"
                     &&
                     item.title_swe
                   }
                 </b>
                 <p>
                   {
-                    props.language == "english"
+                    props.language === "english"
                     &&
                     item.description
                   }
                   {
-                    props.language == "swedish"
+                    props.language === "swedish"
                     &&
                     item.description_swe
                   }
