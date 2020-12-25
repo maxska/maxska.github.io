@@ -4,7 +4,12 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './style/Home.css'
 
 import TopBar from './TopBar.js'
-import ProjectsText from './texts/ProjectsText.js'
+
+
+import "./style/ProjectsText.css";
+import ProjectsTexts from "./texts/ProjectsTexts";
+import ProjectElement from "./ProjectElement.js"
+
 
 const Projects = () =>
 {
@@ -14,7 +19,24 @@ const Projects = () =>
 			<div className="page">
 				<h1 className="heading">Projects</h1>
 
-				<ProjectsText/>
+				<p>
+					{ProjectsTexts["info"]}
+				</p>
+
+				{
+					ProjectsTexts["projects"].map(project => {
+						return (
+							<ProjectElement 
+							title={project.title}
+							languages={project.languages}
+							repo={project.repo}
+							liveDemo={project.liveDemo}
+							description={project.description}
+							workInProgress={project.workInProgress}
+							/>
+						);
+					})
+				}
 			</div>
 
 		</div>
