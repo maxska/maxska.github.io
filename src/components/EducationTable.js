@@ -60,7 +60,7 @@ const EducationTable = (props) =>
         <TableHeader language={props.language}/>
         {
           props.table.courses.map(
-            course => { return(
+            course => {return(
               <TableRow language={props.language}
                         courseCode={course.code}
                         hp={course.hp}

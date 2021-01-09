@@ -149,15 +149,15 @@ a
   background-color: #101b25;
 }
 
-.table-row-wrapper .table-row-upper:hover
-{
-  /*
-  border-top: 2px solid #e4b271;
-  border-bottom: 2px solid #e4b271;
-  */
 
-  border-left: 10px solid white;
+
+.table-row-wrapper .table-row-upper:hover *
+{
+  /*color: #eeba5a;*/
+  color: #f3d294;
+  text-decoration: underline;
 }
+
 
 
 
