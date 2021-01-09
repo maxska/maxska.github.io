@@ -1,5 +1,5 @@
 import ReactDOM from 'react-dom';
-import {BrowserRouter as Router, Switch, Route, HashRouter} from 'react-router-dom';
+import {Switch, Route, HashRouter} from 'react-router-dom';
 
 import "./App.css";
 

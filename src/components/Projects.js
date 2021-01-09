@@ -27,6 +27,7 @@ const Projects = () =>
 							liveDemo={project.liveDemo}
 							description={project.description}
 							workInProgress={project.workInProgress}
+							photo={project.photo}
 							/>
 						);
 					})

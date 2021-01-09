@@ -1,5 +1,5 @@
 
-import {BrowserRouter as Switch, Route, HashRouter} from 'react-router-dom';
+import {Switch, Route, HashRouter} from 'react-router-dom';
 import { useState } from 'react';
 
 import './style/Home.css';
@@ -19,13 +19,12 @@ import D_table from "./texts/D.json";
 import AboutTexts from "./texts/AboutTexts.json";
 
 
-
 const InfoLinks = (props) =>
 {
 	return (
 		<span>
 			&nbsp;{props.infotext}&nbsp;
-			<a href={props.link}>here</a>&nbsp;
+			<a href={props.link} target="_blank" rel="noopener noreferrer">here</a>&nbsp;
 			(or in Swedish&nbsp;
 			<a href={props.link_swe}>here</a>
 			).
@@ -36,7 +35,6 @@ const InfoLinks = (props) =>
 
 const About = () =>
 {
-
 	let [language, setLanguage] = useState("english");
 
 	const switchLanguage = () => 
@@ -46,7 +44,6 @@ const About = () =>
 		else
 			setLanguage("english");
 	}
-
 	
 
 	return(
@@ -82,7 +79,10 @@ const About = () =>
 					<Switch>
 
 						<Route path="/about/work">
+
 							<div>
+
+							{console.log("aaaaaaaaaa")}
 								<h2>Engagement in student organizations</h2>
 								<StudentWorkTable language={language}/>
 
@@ -94,7 +94,12 @@ const About = () =>
 
 
 						<Route path="/about/education">
+
+
+
 							<div className="education-table-wrapper">
+
+							{console.log("bbbbbbbbbbbb")}
 
 								<p style={{backgroundColor: "#14232b", padding: "10px"}}>
 									{AboutTexts["hp_info"].text}

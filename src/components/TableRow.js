@@ -105,7 +105,7 @@ const TableRow = (props) =>
               &&
               <span>
                 <br/>
-                <span style={{color: "#fae2b4"}}>Description from</span>&nbsp;<a href={props.descriptionLink} target="_blank">here</a>.
+                <span style={{color: "#fae2b4"}}>Description from</span>&nbsp;<a href={props.descriptionLink} target="_blank" rel="noopener noreferrer">here</a>.
               </span>
 
             }
@@ -116,7 +116,7 @@ const TableRow = (props) =>
               &&
               <span>
                 <br/>
-                <span style={{color: "#fae2b4"}}>Beskrivningen kommer</span>&nbsp;<a href={props.descriptionLink_swe} target="_blank">härifrån</a>.
+                <span style={{color: "#fae2b4"}}>Beskrivningen kommer</span>&nbsp;<a href={props.descriptionLink_swe} target="_blank" rel="noopener noreferrer">härifrån</a>.
               </span>
             }
           </p>

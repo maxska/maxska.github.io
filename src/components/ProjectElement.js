@@ -1,5 +1,4 @@
 
-
 const ProjectElement = (props) =>
 {
   return(
@@ -11,7 +10,7 @@ const ProjectElement = (props) =>
         props.workInProgress
         &&
         <div style={{
-          backgroundColor: "#5c707a", 
+          backgroundColor: "#48555c", 
           border: "1px solid orange",
           padding: "10px",
           marginRight: "25px",
@@ -40,6 +39,7 @@ const ProjectElement = (props) =>
         &&
         <a href={props.liveDemo}>Live demo of this project</a>
       }
+
     </div>
   )
 }
