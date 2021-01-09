@@ -10,7 +10,6 @@ const TopBar = () =>
 		<div className="top-bar">
 
 
-
 			<Link to="" className="logo">
 				<img src={MainLogo} alt="maxska personal website"
 				className="logo-img"

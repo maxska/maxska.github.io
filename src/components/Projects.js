@@ -4,6 +4,18 @@ import "./style/ProjectsText.css";
 import ProjectsTexts from "./texts/Projects_texts.json";
 import ProjectElement from "./ProjectElement.js"
 
+import thumbnail_calculator from "./texts/images/thumbnail_calculator.png";
+import thumbnail_gradecalc from "./texts/images/thumbnail_gradecalc.png";
+import thumbnail_organization from "./texts/images/thumbnail_organization.png";
+import thumbnail_unitconverter from "./texts/images/thumbnail_unitconverter.png";
+
+// temporary solution for images:
+let images = {
+	image_calculator: thumbnail_calculator,
+	image_gradecalc: thumbnail_gradecalc,
+	image_organization: thumbnail_organization,
+	image_unitconverter: thumbnail_unitconverter
+}
 
 const Projects = () =>
 {
@@ -27,7 +39,8 @@ const Projects = () =>
 							liveDemo={project.liveDemo}
 							description={project.description}
 							workInProgress={project.workInProgress}
-							photo={project.photo}
+
+							image={images[project.image]}
 							/>
 						);
 					})

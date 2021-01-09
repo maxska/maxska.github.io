@@ -15,6 +15,7 @@ const ProjectElement = (props) =>
           padding: "10px",
           marginRight: "25px",
           marginLeft: "25px",
+          borderRadius: "5px"
         }}>
           {props.workInProgress}
         </div>
@@ -38,6 +39,21 @@ const ProjectElement = (props) =>
         props.liveDemo 
         &&
         <a href={props.liveDemo}>Live demo of this project</a>
+      }
+
+      {
+        props.image 
+        &&
+        <img 
+        src={props.image} 
+        alt={props.title + " image"}
+        style={{
+          display: "block",
+          width: "200px",
+          margin: "auto",
+          padding: "5px"
+        }}
+        />
       }
 
     </div>
