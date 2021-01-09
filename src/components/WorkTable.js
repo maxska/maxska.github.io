@@ -1,5 +1,5 @@
 
-import AboutTexts from "./texts/AboutTexts.json";
+import AboutTexts from "./texts/About_texts.json";
 
 const WorkTable = (props) =>
 {

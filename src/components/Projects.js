@@ -1,7 +1,7 @@
 import './style/Home.css';
 
 import "./style/ProjectsText.css";
-import ProjectsTexts from "./texts/ProjectsTexts";
+import ProjectsTexts from "./texts/Projects_texts.json";
 import ProjectElement from "./ProjectElement.js"
 
 

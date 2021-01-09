@@ -1,6 +1,6 @@
 import './style/BottomBar.css';
 
-import BottomBarText from "./texts/BottomBarText.js";
+import BottomBarText from "./texts/BottomBar_text.js";
 
 const BottomBar = () =>
 {

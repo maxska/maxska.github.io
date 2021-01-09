@@ -1,7 +1,7 @@
 
 import './style/Home.css'
 
-import ContactText from './texts/ContactText.js'
+import ContactText from './texts/Contact_text.js'
 
 const Contact = () =>
 {

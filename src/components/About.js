@@ -8,7 +8,7 @@ import MenuElement from './MenuElement';
 
 import StudentWorkTable from "./StudentWorkTable.js";
 import WorkTable from "./WorkTable.js";
-import './style/AboutText.css';
+import './style/About_text.css';
 
 import EducationTable from "./EducationTable.js";
 import EducationTableD from "./EducationTable_D.js";
@@ -16,7 +16,7 @@ import EducationTableD from "./EducationTable_D.js";
 import MT_table from "./texts/MT.json";
 import other_table from "./texts/other.json";
 import D_table from "./texts/D.json";
-import AboutTexts from "./texts/AboutTexts.json";
+import AboutTexts from "./texts/About_texts.json";
 
 
 const InfoLinks = (props) =>
@@ -79,10 +79,7 @@ const About = () =>
 					<Switch>
 
 						<Route path="/about/work">
-
 							<div>
-
-							{console.log("aaaaaaaaaa")}
 								<h2>Engagement in student organizations</h2>
 								<StudentWorkTable language={language}/>
 
@@ -94,12 +91,7 @@ const About = () =>
 
 
 						<Route path="/about/education">
-
-
-
 							<div className="education-table-wrapper">
-
-							{console.log("bbbbbbbbbbbb")}
 
 								<p style={{backgroundColor: "#14232b", padding: "10px"}}>
 									{AboutTexts["hp_info"].text}
