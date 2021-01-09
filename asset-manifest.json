@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.24e64bb3.chunk.css",
-    "main.js": "/static/js/main.72b90034.chunk.js",
-    "main.js.map": "/static/js/main.72b90034.chunk.js.map",
+    "main.css": "/static/css/main.500fa4e2.chunk.css",
+    "main.js": "/static/js/main.19f7b367.chunk.js",
+    "main.js.map": "/static/js/main.19f7b367.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d36ae0b6.js",
     "runtime-main.js.map": "/static/js/runtime-main.d36ae0b6.js.map",
     "static/js/2.a6aad491.chunk.js": "/static/js/2.a6aad491.chunk.js",
@@ -10,14 +10,18 @@
     "static/js/3.be0b66b3.chunk.js": "/static/js/3.be0b66b3.chunk.js",
     "static/js/3.be0b66b3.chunk.js.map": "/static/js/3.be0b66b3.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.24e64bb3.chunk.css.map": "/static/css/main.24e64bb3.chunk.css.map",
+    "static/css/main.500fa4e2.chunk.css.map": "/static/css/main.500fa4e2.chunk.css.map",
     "static/js/2.a6aad491.chunk.js.LICENSE.txt": "/static/js/2.a6aad491.chunk.js.LICENSE.txt",
-    "static/media/maxska-logo.3220b95a.png": "/static/media/maxska-logo.3220b95a.png"
+    "static/media/maxska-logo.3220b95a.png": "/static/media/maxska-logo.3220b95a.png",
+    "static/media/thumbnail_calculator.5a358c03.png": "/static/media/thumbnail_calculator.5a358c03.png",
+    "static/media/thumbnail_gradecalc.bf3f3fb4.png": "/static/media/thumbnail_gradecalc.bf3f3fb4.png",
+    "static/media/thumbnail_organization.7be69f1a.png": "/static/media/thumbnail_organization.7be69f1a.png",
+    "static/media/thumbnail_unitconverter.7a1be93d.png": "/static/media/thumbnail_unitconverter.7a1be93d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d36ae0b6.js",
     "static/js/2.a6aad491.chunk.js",
-    "static/css/main.24e64bb3.chunk.css",
-    "static/js/main.72b90034.chunk.js"
+    "static/css/main.500fa4e2.chunk.css",
+    "static/js/main.19f7b367.chunk.js"
   ]
 }
