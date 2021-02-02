@@ -53,7 +53,11 @@ const TableRow = (props) =>
 
   const getColor = () =>
   {
-    if (props.unfinished === "true")
+    console.log("PROOOOOOPS:");
+    console.log(props);
+
+
+    if (props.unfinished === true)
     {
       return "#4ecdff";
     }

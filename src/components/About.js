@@ -123,11 +123,13 @@ const About = () =>
 									<InfoLinks infotext={AboutTexts["D"].infotext} link={AboutTexts["D"].link} link_swe={AboutTexts["D"].link_swe}/>
 								</p>
 
+								<EducationTableD table={D_table[0]} language={language}/>
+								
 								<p style={{color: "#4ecdff"}}>
 									{AboutTexts["D"].extra_info}
 								</p>
 
-								<EducationTableD table={D_table[0]} language={language}/>
+								<EducationTableD table={D_table[1]} language={language}/>
 
 
 							</div>

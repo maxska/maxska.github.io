@@ -75,6 +75,7 @@ const EducationTable_D = (props) =>
                         title_swe={course.title_swe}
                         description_swe={course.description_swe}
                         descriptionLink_swe={course.description_link_swe}
+                        unfinished={course.unfinished}
                />)}
           )
         }
