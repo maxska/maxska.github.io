@@ -3,7 +3,7 @@ const ProjectElement = (props) =>
 {
   return(
     <div className="project-element">
-      <h2 style={{color: "orange", textAlign: "center"}}>{props.title}</h2>
+      <h2 style={{color: "#ffd574", textAlign: "center"}}>{props.title}</h2>
       <h4><span style={{color: "#ffd574"}}>Made in: </span>{props.languages}</h4>
 
       {
