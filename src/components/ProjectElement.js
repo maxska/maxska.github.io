@@ -32,13 +32,13 @@ const ProjectElement = (props) =>
       }
 
       <p>
-        <a href={props.repo}>GitHub repo</a>
+        <a href={props.repo} target="_blank" rel="noopener noreferrer">GitHub repo</a>
       </p>
       
       {
         props.liveDemo 
         &&
-        <a href={props.liveDemo}>Live demo of this project</a>
+        <a href={props.liveDemo} target="_blank" rel="noopener noreferrer">Live demo of this project</a>
       }
 
       {
@@ -49,7 +49,7 @@ const ProjectElement = (props) =>
         alt={props.title + " image"}
         style={{
           display: "block",
-          width: "200px",
+          width: "250px",
           margin: "auto",
           padding: "5px"
         }}

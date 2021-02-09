@@ -73,7 +73,7 @@ const StudentWorkTable = (props) =>
                     item.description_swe
                   }
                 </p>
-                <a href={item.link}>
+                <a href={item.link} target="_blank" rel="noopener noreferrer"> 
                   {item.link_title}
                 </a>
               </td>

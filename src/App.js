@@ -1,4 +1,3 @@
-import ReactDOM from 'react-dom';
 import {Switch, Route, HashRouter} from 'react-router-dom';
 
 import "./App.css";
