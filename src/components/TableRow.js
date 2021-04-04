@@ -37,8 +37,10 @@ const TableRow = (props) =>
         return "Övrigt";
       case "Electronics":
         return "Elektronik"
+      case "Computers":
+        return "Datorteknik"
       default: 
-        return "-----ERROR"
+        return "-----"
     }
   }
 

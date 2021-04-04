@@ -23,7 +23,7 @@ const TopBar = () =>
 			<div className="links">
 				<MenuElement title="Home" page="" type="global"/>
 
-				<MenuElement title="About me" page="about/work" type="global"/>
+				<MenuElement title="About me" page="about/education" type="global"/>
 
 				<MenuElement title="Projects" page="projects" type="global"/>
 

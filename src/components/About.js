@@ -67,10 +67,10 @@ const About = () =>
 				<HashRouter>
 					
 					<div className="inner-navbar">
-						
-						<MenuElement title="Work &amp; Student work" page="about/work" type="local"/>
 
 						<MenuElement title="Education" page="about/education" type="local"/>
+						
+						<MenuElement title="Student life &amp; Work" page="about/work" type="local"/>
 
 					</div>
 
