@@ -10,7 +10,7 @@ const ProjectElement = (props) => {
 			{props.workInProgress && (
 				<div
 					style={{
-						border: "2px solid #3d4f58",
+						border: "1px solid orange",
 						padding: "10px",
 						marginRight: "25px",
 						marginLeft: "25px",
