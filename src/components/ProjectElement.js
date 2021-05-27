@@ -1,19 +1,23 @@
 const ProjectElement = (props) => {
   return (
     <div className='project-element'>
-      <h2 style={{ color: '#e4b271', textAlign: 'center' }}>{props.title}</h2>
-      <h4>
+      <h2 style={{ color: '#e4b271', textAlign: 'center', fontWeight: '900' }}>
+        {props.title}
+      </h2>
+      <div style={{ fontWeight: '900' }}>
         <span style={{ color: '#e4b271' }}>Made in: </span>
         {props.languages}
-      </h4>
+      </div>
 
       {props.workInProgress && (
         <div
           style={{
-            border: '1px solid orange',
+            border: '1px solid #e4b271',
             padding: '10px',
             marginRight: '25px',
             marginLeft: '25px',
+            marginTop: '15px',
+            marginBottom: '15px',
             borderRadius: '5px',
           }}
         >
@@ -23,20 +27,47 @@ const ProjectElement = (props) => {
 
       {props.description && (
         <p>
-          <span style={{ color: '#e4b271' }}>Description: </span>
+          <span style={{ color: '#e4b271', fontWeight: '900' }}>
+            Description:{' '}
+          </span>
           {props.description}
         </p>
       )}
 
-      <p>
-        <a href={props.repo} target='_blank' rel='noopener noreferrer'>
+      <a href={props.repo} target='_blank' rel='noopener noreferrer'>
+        <span
+          style={{
+            border: '1px solid #e4b271',
+            color: '#e4b271',
+            fontWeight: '500',
+
+            padding: '3px',
+            margin: '5px',
+            borderRadius: '4px',
+            display: 'inline-block',
+          }}
+        >
           GitHub repo
-        </a>
-      </p>
+        </span>
+      </a>
 
       {props.liveDemo && (
         <a href={props.liveDemo} target='_blank' rel='noopener noreferrer'>
-          Live demo of this project
+          <span
+            style={{
+              border: '1px solid #e4b271',
+              color: '#e4b271',
+              fontWeight: '500',
+
+              padding: '3px',
+              margin: '5px',
+              borderRadius: '4px',
+              marginBottom: '10px',
+              display: 'inline-block',
+            }}
+          >
+            Live demo
+          </span>
         </a>
       )}
 

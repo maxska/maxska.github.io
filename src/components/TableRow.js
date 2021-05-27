@@ -4,50 +4,31 @@ const TableRow = (props) => {
   let [showDescription, setShowDescription] = useState(false);
 
   const getTitle = () => {
-    if (props.language === 'english') {
-      return props.title;
-    }
-    return props.title_swe;
+    return props.language === 'english' ? props.title : props.title_swe;
   };
 
   const getField = () => {
-    // if language is not swedish return props.field
-    if (props.language === 'english') {
-      return props.field;
-    }
-
-    //else:
-    switch (props.field) {
-      case 'Mathematics':
-        return 'Matematik';
-      case 'Physics':
-        return 'Fysik';
-      case 'Programming':
-        return 'Programmering';
-      case 'Other':
-        return 'Övrigt';
-      case 'Electronics':
-        return 'Elektronik';
-      case 'Computers':
-        return 'Datorteknik';
-      default:
-        return '-----';
-    }
+    const translations = {
+      Mathematics: 'Matematik',
+      Physics: 'Fysik',
+      Programming: 'Programmering',
+      Other: 'Övrigt',
+      Electronics: 'Elektronik',
+      Computers: 'Datorteknik',
+    };
+    return props.language === 'english'
+      ? props.field
+      : translations[props.field];
   };
 
   const getDescription = () => {
-    if (props.language === 'english') {
-      return props.description;
-    }
-    return props.description_swe;
+    return props.language === 'english'
+      ? props.description
+      : props.description_swe;
   };
 
   const getColor = () => {
-    if (props.unfinished === true) {
-      return '#4ecdff';
-    }
-
-    return 'white';
+		return props.unfinished ? '#4ecdff' : 'white';
   };
 
   return (
