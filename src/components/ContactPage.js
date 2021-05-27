@@ -1,8 +1,8 @@
-import './style/Home.css';
+import './style/StartPage.css';
 
 import ContactText from './texts/Contact_text.js';
 
-const Contact = () => {
+const ContactPage = () => {
   return (
     <div className='page'>
       <h1 className='heading'>Contact</h1>
@@ -12,4 +12,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactPage;

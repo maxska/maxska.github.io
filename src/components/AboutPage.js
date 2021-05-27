@@ -4,8 +4,8 @@ import MenuElement from './MenuElement';
 import StudentWorkTable from './StudentWorkTable.js';
 import WorkTable from './WorkTable.js';
 import EducationPage from "./EducationPage.js"
-import './style/Home.css';
-import './style/About.css';
+import './style/StartPage.css';
+import './style/AboutPage.css';
 import './style/About_text.css';
 
 const AboutPage = () => {

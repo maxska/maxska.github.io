@@ -1,4 +1,4 @@
-import './style/Home.css';
+import './style/StartPage.css';
 
 import './style/ProjectsText.css';
 import ProjectsTexts from './texts/Projects_texts.json';
@@ -19,7 +19,7 @@ const images = {
   image_separatorgenerator: thumbnail_separatorgenerator,
 };
 
-const Projects = () => {
+const ProjectsPage = () => {
   return (
     <div>
       <div className='page'>
@@ -43,4 +43,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default ProjectsPage;

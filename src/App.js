@@ -2,10 +2,10 @@ import { Switch, Route, HashRouter } from 'react-router-dom';
 
 import './App.css';
 
-import Home from './components/Home.js';
+import StartPage from './components/StartPage.js';
 import AboutPage from './components/AboutPage.js';
-import Projects from './components/Projects.js';
-import Contact from './components/Contact.js';
+import ProjectsPage from './components/ProjectsPage.js';
+import ContactPage from './components/ContactPage.js';
 
 import TopBar from './components/TopBar.js';
 import BottomBar from './components/BottomBar.js';
@@ -18,7 +18,7 @@ function App() {
 
         <Switch>
           <Route exact path='/'>
-            <Home />
+            <StartPage />
           </Route>
 
           <Route path='/about/work'>
@@ -30,11 +30,11 @@ function App() {
           </Route>
 
           <Route path='/projects'>
-            <Projects />
+            <ProjectsPage />
           </Route>
 
           <Route path='/contact'>
-            <Contact />
+            <ContactPage />
           </Route>
         </Switch>
 
