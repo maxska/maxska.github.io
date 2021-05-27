@@ -5,8 +5,9 @@ const ProjectElement = ({
   liveDemo,
   description,
   workInProgress,
-  image,
+  imageLink,
 }) => {
+
   return (
     <div className='project-element'>
       <h2 style={{ color: '#e4b271', textAlign: 'center', fontWeight: '900' }}>
@@ -79,9 +80,9 @@ const ProjectElement = ({
         </a>
       )}
 
-      {image && (
+      {imageLink && (
         <img
-          src={image}
+          src={require("./texts/images/" + imageLink).default}
           alt={title + ' image'}
           style={{
             display: 'block',

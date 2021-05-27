@@ -4,21 +4,6 @@ import './style/ProjectsText.css';
 import ProjectsTexts from './texts/Projects_texts.json';
 import ProjectElement from './ProjectElement.js';
 
-import thumbnail_calculator from './texts/images/thumbnail_calculator.png';
-import thumbnail_gradecalc from './texts/images/thumbnail_gradecalc.png';
-import thumbnail_organization from './texts/images/thumbnail_organization.png';
-import thumbnail_unitconverter from './texts/images/thumbnail_unitconverter.png';
-import thumbnail_separatorgenerator from './texts/images/thumbnail_separatorgenerator.png';
-
-// temporary solution for images:
-const images = {
-  image_calculator: thumbnail_calculator,
-  image_gradecalc: thumbnail_gradecalc,
-  image_organization: thumbnail_organization,
-  image_unitconverter: thumbnail_unitconverter,
-  image_separatorgenerator: thumbnail_separatorgenerator,
-};
-
 const ProjectsPage = () => {
   return (
     <div>
@@ -35,7 +20,7 @@ const ProjectsPage = () => {
             liveDemo={project.liveDemo}
             description={project.description}
             workInProgress={project.workInProgress}
-            image={images[project.image]}
+            imageLink={project.image}
           />
         ))}
       </div>
