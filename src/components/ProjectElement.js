@@ -1,15 +1,23 @@
-const ProjectElement = (props) => {
+const ProjectElement = ({
+  title,
+  languages,
+  repo,
+  liveDemo,
+  description,
+  workInProgress,
+  image,
+}) => {
   return (
     <div className='project-element'>
       <h2 style={{ color: '#e4b271', textAlign: 'center', fontWeight: '900' }}>
-        {props.title}
+        {title}
       </h2>
       <div style={{ fontWeight: '900' }}>
         <span style={{ color: '#e4b271' }}>Made in: </span>
-        {props.languages}
+        {languages}
       </div>
 
-      {props.workInProgress && (
+      {workInProgress && (
         <div
           style={{
             border: '1px solid #e4b271',
@@ -21,20 +29,20 @@ const ProjectElement = (props) => {
             borderRadius: '5px',
           }}
         >
-          {props.workInProgress}
+          {workInProgress}
         </div>
       )}
 
-      {props.description && (
+      {description && (
         <p>
           <span style={{ color: '#e4b271', fontWeight: '900' }}>
             Description:{' '}
           </span>
-          {props.description}
+          {description}
         </p>
       )}
 
-      <a href={props.repo} target='_blank' rel='noopener noreferrer'>
+      <a href={repo} target='_blank' rel='noopener noreferrer'>
         <span
           style={{
             border: '1px solid #e4b271',
@@ -51,8 +59,8 @@ const ProjectElement = (props) => {
         </span>
       </a>
 
-      {props.liveDemo && (
-        <a href={props.liveDemo} target='_blank' rel='noopener noreferrer'>
+      {liveDemo && (
+        <a href={liveDemo} target='_blank' rel='noopener noreferrer'>
           <span
             style={{
               border: '1px solid #e4b271',
@@ -71,10 +79,10 @@ const ProjectElement = (props) => {
         </a>
       )}
 
-      {props.image && (
+      {image && (
         <img
-          src={props.image}
-          alt={props.title + ' image'}
+          src={image}
+          alt={title + ' image'}
           style={{
             display: 'block',
             width: '250px',

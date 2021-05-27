@@ -11,7 +11,7 @@ import thumbnail_unitconverter from './texts/images/thumbnail_unitconverter.png'
 import thumbnail_separatorgenerator from './texts/images/thumbnail_separatorgenerator.png';
 
 // temporary solution for images:
-let images = {
+const images = {
   image_calculator: thumbnail_calculator,
   image_gradecalc: thumbnail_gradecalc,
   image_organization: thumbnail_organization,

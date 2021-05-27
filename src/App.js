@@ -3,7 +3,7 @@ import { Switch, Route, HashRouter } from 'react-router-dom';
 import './App.css';
 
 import Home from './components/Home.js';
-import About from './components/About.js';
+import AboutPage from './components/AboutPage.js';
 import Projects from './components/Projects.js';
 import Contact from './components/Contact.js';
 
@@ -22,11 +22,11 @@ function App() {
           </Route>
 
           <Route path='/about/work'>
-            <About />
+            <AboutPage />
           </Route>
 
           <Route path='/about'>
-            <About />
+            <AboutPage />
           </Route>
 
           <Route path='/projects'>
