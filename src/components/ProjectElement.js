@@ -1,3 +1,6 @@
+
+import "../App.css"
+
 const ProjectElement = ({
   title,
   languages,
@@ -55,6 +58,7 @@ const ProjectElement = ({
             borderRadius: '4px',
             display: 'inline-block',
           }}
+          className="button"
         >
           GitHub repo
         </span>
@@ -74,6 +78,7 @@ const ProjectElement = ({
               marginBottom: '10px',
               display: 'inline-block',
             }}
+            className="button"
           >
             Live demo
           </span>
