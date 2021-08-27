@@ -20,7 +20,7 @@ const InfoLinks = ({ infotext, link, link_swe }) => {
       <a href={link} target='_blank' rel='noopener noreferrer'>
         here
       </a>
-      &nbsp; (or in Swedish&nbsp;
+      &nbsp;(or in Swedish&nbsp;
       <a href={link_swe}>here</a>
       ).
     </span>
@@ -40,6 +40,11 @@ const EducationPage = ({language}) => {
           infotext={AboutTexts['MT'].infotext}
           link={AboutTexts['MT'].link}
           link_swe={AboutTexts['MT'].link_swe}
+        />
+        <InfoLinks
+          infotext={AboutTexts['D_0'].infotext}
+          link={AboutTexts['D_0'].link}
+          link_swe={AboutTexts['D_0'].link_swe}
         />
       </p>
 
@@ -66,7 +71,7 @@ const EducationPage = ({language}) => {
 
       <EducationTableD table={D_table[0]} language={language} />
 
-      <p style={{ color: '#4ecdff' }}>{AboutTexts['D'].extra_info}</p>
+      {/* <p style={{ color: '#4ecdff' }}>{AboutTexts['D'].extra_info}</p> */}
 
       <EducationTableD table={D_table[1]} language={language} />
     </div>

@@ -3,89 +3,48 @@ import TableRow from './TableRow.js';
 const TableHeaderD = (props) => {
   return (
     <>
-      {props.language === 'english' && (
-        <div className='table-row table-row-header'>
-          <div
-            style={{
-              flex: '0 0 80px',
-              backgroundColor: '#5c707a',
-              paddingTop: '5px',
-              paddingBottom: '5px',
-            }}
-            className='table-row-element'
-          >
-            Course code
-          </div>
-
-          <div
-            style={{ flex: '0 0 25px', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-          >
-            hp
-          </div>
-
-          <div
-            style={{ flex: '0 0 35px', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-          >
-            Year
-          </div>
-
-          <div
-            style={{ width: '100%', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-          >
-            Title
-          </div>
-
-          <div
-            style={{ flex: '0 0 140px', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-            id='field-element'
-          >
-            Field
-          </div>
+      <div className='table-row table-row-header'>
+        <div
+          style={{
+            flex: '0 0 80px',
+            backgroundColor: '#5c707a',
+            paddingTop: '5px',
+            paddingBottom: '5px',
+          }}
+          className='table-row-element'
+        >
+          {props.language === "english" ? "Course code" : "Kurskod"}
         </div>
-      )}
-      {props.language === 'swedish' && (
-        <div className='table-row table-row-header'>
-          <div
-            style={{ flex: '0 0 80px', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-          >
-            Kurskod
-          </div>
 
-          <div
-            style={{ flex: '0 0 25px', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-          >
-            hp
-          </div>
-
-          <div
-            style={{ flex: '0 0 35px', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-          >
-            Års-kurs
-          </div>
-
-          <div
-            style={{ width: '100%', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-          >
-            Kursnamn
-          </div>
-
-          <div
-            style={{ flex: '0 0 140px', backgroundColor: '#5c707a' }}
-            className='table-row-element'
-            id='field-element'
-          >
-            Ämne
-          </div>
+        <div
+          style={{ flex: '0 0 25px', backgroundColor: '#5c707a' }}
+          className='table-row-element'
+        >
+          hp
         </div>
-      )}
+
+        <div
+          style={{ flex: '0 0 35px', backgroundColor: '#5c707a' }}
+          className='table-row-element'
+        >
+          {props.language === "english" ? "Year" : "Års-kurs"}
+        </div>
+
+        <div
+          style={{ width: '100%', backgroundColor: '#5c707a' }}
+          className='table-row-element'
+        >
+          {props.language === "english" ? "Title" : "Kursnamn"}
+        </div>
+
+        <div
+          style={{ flex: '0 0 140px', backgroundColor: '#5c707a' }}
+          className='table-row-element'
+          id='field-element'
+        >
+          {props.language === "english" ? "Field" : "Område"}
+        </div>
+      </div>
     </>
   );
 };
@@ -118,7 +77,7 @@ const EducationTable_D = (props) => {
               title_swe={course.title_swe}
               description_swe={course.description_swe}
               descriptionLink_swe={course.description_link_swe}
-              unfinished={course.unfinished}
+              //unfinished={course.unfinished}
             />
           );
         })}

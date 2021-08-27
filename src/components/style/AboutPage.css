@@ -88,32 +88,14 @@
   display: inline-block;
 }
 
-
-.language-switch
-{
-  /*
-  background-color: black;
-  */
-
-  width: 60px;
-  height: 40px;
-
-  border-radius: 20px;
-  margin: 10px;
-
-
-  border: 1px solid white;
-  background-size: 60px 40px;
-}
-
-.temp-button
+.language-button
 {
   color: white;
-  padding: 5px;
+  /* padding: 5px; */
   background-color: #8f9fa0;
   user-select: none;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 2px;
   margin: 5px;
   margin-left: 120px;
 
@@ -122,30 +104,14 @@
   right: 1px;
 }
 
-.temp-button:hover
+.language-button:hover
 {
   background-color: #163341;
+  border-color: black;
 }
 
-.temp-button:active
+.language-button:active
 {
   background-color: white;
   color: black;
-}
-
-
-@media screen and (max-width: 500px)
-{
-  .temp-button
-  {
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 430px)
-{
-  .temp-button
-  {
-    font-size: 12px;
-  }
 }
