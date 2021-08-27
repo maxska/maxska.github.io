@@ -71,9 +71,14 @@ const EducationPage = ({language}) => {
 
       <EducationTableD table={D_table[0]} language={language} />
 
-      {/* <p style={{ color: '#4ecdff' }}>{AboutTexts['D'].extra_info}</p> */}
 
       <EducationTableD table={D_table[1]} language={language} />
+
+
+      <EducationTableD table={D_table[2]} language={language} />
+
+
+      {/* <p style={{ color: '#4ecdff' }}>{AboutTexts['D'].extra_info}</p> */}
     </div>
   );
 };
