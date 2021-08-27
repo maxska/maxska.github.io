@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.af6116d0.chunk.css",
-    "main.js": "/static/js/main.d3f4b803.chunk.js",
-    "main.js.map": "/static/js/main.d3f4b803.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0ea6ed9f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0ea6ed9f.js.map",
-    "static/js/2.6db5d5df.chunk.js": "/static/js/2.6db5d5df.chunk.js",
-    "static/js/2.6db5d5df.chunk.js.map": "/static/js/2.6db5d5df.chunk.js.map",
-    "static/js/3.d3e46b0d.chunk.js": "/static/js/3.d3e46b0d.chunk.js",
-    "static/js/3.d3e46b0d.chunk.js.map": "/static/js/3.d3e46b0d.chunk.js.map",
+    "main.css": "/static/css/main.0c2d7747.chunk.css",
+    "main.js": "/static/js/main.820fe551.chunk.js",
+    "main.js.map": "/static/js/main.820fe551.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.62fb33e7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.62fb33e7.js.map",
+    "static/js/2.d2841121.chunk.js": "/static/js/2.d2841121.chunk.js",
+    "static/js/2.d2841121.chunk.js.map": "/static/js/2.d2841121.chunk.js.map",
+    "static/js/3.303e7cfc.chunk.js": "/static/js/3.303e7cfc.chunk.js",
+    "static/js/3.303e7cfc.chunk.js.map": "/static/js/3.303e7cfc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.af6116d0.chunk.css.map": "/static/css/main.af6116d0.chunk.css.map",
-    "static/js/2.6db5d5df.chunk.js.LICENSE.txt": "/static/js/2.6db5d5df.chunk.js.LICENSE.txt",
-    "static/media/eng-flag.xcf": "/static/media/eng-flag.f7481e82.xcf",
+    "static/css/main.0c2d7747.chunk.css.map": "/static/css/main.0c2d7747.chunk.css.map",
+    "static/js/2.d2841121.chunk.js.LICENSE.txt": "/static/js/2.d2841121.chunk.js.LICENSE.txt",
     "static/media/english.png": "/static/media/english.195a2110.png",
     "static/media/english.xcf": "/static/media/english.e3df5ada.xcf",
+    "static/media/english0.xcf": "/static/media/english0.f7481e82.xcf",
     "static/media/img_calculator.png": "/static/media/img_calculator.5a358c03.png",
     "static/media/img_gradecalc.png": "/static/media/img_gradecalc.bf3f3fb4.png",
     "static/media/img_organization.png": "/static/media/img_organization.7be69f1a.png",
@@ -32,13 +32,13 @@
     "static/media/maxska-logo.png": "/static/media/maxska-logo.3220b95a.png",
     "static/media/maxska-logo.xcf": "/static/media/maxska-logo.f2d42f9e.xcf",
     "static/media/portrait.jpeg": "/static/media/portrait.8b70defc.jpeg",
-    "static/media/swe-flag.xcf": "/static/media/swe-flag.2d486905.xcf",
-    "static/media/swedish.xcf": "/static/media/swedish.68e4a812.xcf"
+    "static/media/swedish.xcf": "/static/media/swedish.68e4a812.xcf",
+    "static/media/swedish0.xcf": "/static/media/swedish0.082b371b.xcf"
   },
   "entrypoints": [
-    "static/js/runtime-main.0ea6ed9f.js",
-    "static/js/2.6db5d5df.chunk.js",
-    "static/css/main.af6116d0.chunk.css",
-    "static/js/main.d3f4b803.chunk.js"
+    "static/js/runtime-main.62fb33e7.js",
+    "static/js/2.d2841121.chunk.js",
+    "static/css/main.0c2d7747.chunk.css",
+    "static/js/main.820fe551.chunk.js"
   ]
 }
