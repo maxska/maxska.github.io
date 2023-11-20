@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.35868262.chunk.css",
-    "main.js": "/static/js/main.35556969.chunk.js",
-    "main.js.map": "/static/js/main.35556969.chunk.js.map",
+    "main.css": "/static/css/main.0c2d7747.chunk.css",
+    "main.js": "/static/js/main.08ba9c4a.chunk.js",
+    "main.js.map": "/static/js/main.08ba9c4a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62fb33e7.js",
     "runtime-main.js.map": "/static/js/runtime-main.62fb33e7.js.map",
-    "static/js/2.d2841121.chunk.js": "/static/js/2.d2841121.chunk.js",
-    "static/js/2.d2841121.chunk.js.map": "/static/js/2.d2841121.chunk.js.map",
+    "static/js/2.2a3c1cba.chunk.js": "/static/js/2.2a3c1cba.chunk.js",
+    "static/js/2.2a3c1cba.chunk.js.map": "/static/js/2.2a3c1cba.chunk.js.map",
     "static/js/3.303e7cfc.chunk.js": "/static/js/3.303e7cfc.chunk.js",
     "static/js/3.303e7cfc.chunk.js.map": "/static/js/3.303e7cfc.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.35868262.chunk.css.map": "/static/css/main.35868262.chunk.css.map",
-    "static/js/2.d2841121.chunk.js.LICENSE.txt": "/static/js/2.d2841121.chunk.js.LICENSE.txt",
+    "static/css/main.0c2d7747.chunk.css.map": "/static/css/main.0c2d7747.chunk.css.map",
+    "static/js/2.2a3c1cba.chunk.js.LICENSE.txt": "/static/js/2.2a3c1cba.chunk.js.LICENSE.txt",
     "static/media/english.png": "/static/media/english.195a2110.png",
     "static/media/english.xcf": "/static/media/english.e3df5ada.xcf",
     "static/media/english0.xcf": "/static/media/english0.f7481e82.xcf",
@@ -31,14 +31,14 @@
     "static/media/logo-template.xcf": "/static/media/logo-template.b7c06df0.xcf",
     "static/media/maxska-logo.png": "/static/media/maxska-logo.3220b95a.png",
     "static/media/maxska-logo.xcf": "/static/media/maxska-logo.f2d42f9e.xcf",
-    "static/media/portrait.jpeg": "/static/media/portrait.8b70defc.jpeg",
+    "static/media/portrait.png": "/static/media/portrait.b097bd63.png",
     "static/media/swedish.xcf": "/static/media/swedish.68e4a812.xcf",
     "static/media/swedish0.xcf": "/static/media/swedish0.082b371b.xcf"
   },
   "entrypoints": [
     "static/js/runtime-main.62fb33e7.js",
-    "static/js/2.d2841121.chunk.js",
-    "static/css/main.35868262.chunk.css",
-    "static/js/main.35556969.chunk.js"
+    "static/js/2.2a3c1cba.chunk.js",
+    "static/css/main.0c2d7747.chunk.css",
+    "static/js/main.08ba9c4a.chunk.js"
   ]
 }
