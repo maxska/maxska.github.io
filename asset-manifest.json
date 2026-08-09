@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.d0362ce7.css",
-    "main.js": "/static/js/main.216e2a78.js",
+    "main.js": "/static/js/main.e24582f7.js",
     "static/js/422.03abd816.chunk.js": "/static/js/422.03abd816.chunk.js",
     "static/media/img_organization.png": "/static/media/img_organization.7be69f1ab8d167f7e7f8.png",
-    "static/media/portrait.png": "/static/media/portrait.fa910ffbe3e85d118409.png",
     "static/media/img_personalwebsite.png": "/static/media/img_personalwebsite.d74e39b46879539650b5.png",
+    "static/media/portrait.png": "/static/media/portrait.87107d1b6e9c8a1a1527.png",
     "static/media/maxska-logo.xcf": "/static/media/maxska-logo.f2d42f9e854f304328d4.xcf",
     "static/media/img_calculator.png": "/static/media/img_calculator.5a358c039d1b86d2105f.png",
     "static/media/img_separatorgenerator.png": "/static/media/img_separatorgenerator.9ec1d65bd7e6d39f5b67.png",
@@ -27,11 +27,11 @@
     "static/media/swedish0.xcf": "/static/media/swedish0.082b371b5145374107f6.xcf",
     "index.html": "/index.html",
     "main.d0362ce7.css.map": "/static/css/main.d0362ce7.css.map",
-    "main.216e2a78.js.map": "/static/js/main.216e2a78.js.map",
+    "main.e24582f7.js.map": "/static/js/main.e24582f7.js.map",
     "422.03abd816.chunk.js.map": "/static/js/422.03abd816.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0362ce7.css",
-    "static/js/main.216e2a78.js"
+    "static/js/main.e24582f7.js"
   ]
 }
