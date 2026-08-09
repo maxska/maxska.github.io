@@ -1,4 +1,4 @@
-import AboutTexts from './texts/About_texts.json';
+import AboutTexts from './personal-website-texts/About_texts.json';
 
 const StudentWorkTable = (props) => {
   return (

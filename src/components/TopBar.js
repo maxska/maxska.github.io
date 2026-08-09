@@ -2,7 +2,7 @@ import './style/TopBar.css';
 import MenuElement from './MenuElement.js';
 
 import { Link } from 'react-router-dom';
-import MainLogo from './texts/images/maxska-logo.png';
+import MainLogo from './personal-website-texts/images/maxska-logo.png';
 
 const TopBar = () => {
   return (

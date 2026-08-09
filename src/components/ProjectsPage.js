@@ -1,7 +1,7 @@
 import './style/StartPage.css';
 
 import './style/ProjectsText.css';
-import ProjectsTexts from './texts/Projects_texts.json';
+import ProjectsTexts from './personal-website-texts/Projects_texts.json';
 import ProjectElement from './ProjectElement.js';
 
 const ProjectsPage = () => {

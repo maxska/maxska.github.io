@@ -8,8 +8,8 @@ import './style/StartPage.css';
 import './style/AboutPage.css';
 import './style/About_text.css';
 
-import swedish_img from './texts/images/swedish.png';
-import english_img from './texts/images/english.png';
+import swedish_img from './personal-website-texts/images/swedish.png';
+import english_img from './personal-website-texts/images/english.png';
 
 const AboutPage = () => {
   const [language, setLanguage] = useState("english");
@@ -56,11 +56,17 @@ const AboutPage = () => {
           <Switch>
             <Route path='/about/work'>
               <div>
+
+                <h2>Work experience</h2>
+                {/* <WorkTable language={language} /> */}
+                See <a href="https://se.linkedin.com/in/max-skanvik" target="_blank" rel="noopener noreferrer">my Linkedin profile</a>
+
+
+
                 <h2>Engagement in student organizations</h2>
                 <StudentWorkTable language={language} />
 
-                <h2>Work experience</h2>
-                <WorkTable language={language} />
+                
               </div>
             </Route>
 

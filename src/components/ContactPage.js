@@ -1,6 +1,6 @@
 import './style/StartPage.css';
 
-import ContactText from './texts/Contact_text.js';
+import ContactText from './personal-website-texts/Contact_text.js';
 
 const ContactPage = () => {
   return (

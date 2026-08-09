@@ -31,6 +31,8 @@ const TableRow = (props) => {
 		return props.unfinished ? '#4ecdff' : 'white';
   };
 
+  const description = getDescription()
+
   return (
     <div className='table-row-container' style={{ color: getColor() }}>
       <div
@@ -78,12 +80,12 @@ const TableRow = (props) => {
           )}
 
           <p style={{ margin: '0', padding: '0' }}>
-            {getDescription()}
+            {description}
 
             {props.descriptionLink && props.language === 'english' && (
               <span>
                 <br />
-                <span style={{ color: '#fae2b4' }}>Description from</span>&nbsp;
+                <span style={{ color: '#fae2b4' }}>Description{description.length ? " from" : ""}</span>&nbsp;
                 <a
                   href={props.descriptionLink}
                   target='_blank'
@@ -97,14 +99,14 @@ const TableRow = (props) => {
             {props.descriptionLink && props.language === 'swedish' && (
               <span>
                 <br />
-                <span style={{ color: '#fae2b4' }}>Beskrivningen kommer</span>
+                <span style={{ color: '#fae2b4' }}>Beskrivning{description.length ? "en kommer" : ""}</span>
                 &nbsp;
                 <a
                   href={props.descriptionLink_swe}
                   target='_blank'
                   rel='noopener noreferrer'
                 >
-                  härifrån
+                  här{description.length ? "ifrån" : ""}
                 </a>
                 .
               </span>

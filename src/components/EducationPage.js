@@ -2,10 +2,10 @@
 import EducationTable from './EducationTable.js';
 import EducationTableD from './EducationTable_D.js';
 
-import MT_table from './texts/MT.json';
-import other_table from './texts/other.json';
-import D_table from './texts/D.json';
-import AboutTexts from './texts/About_texts.json';
+import MT_table from './personal-website-texts/MT.json';
+import other_table from './personal-website-texts/other.json';
+import D_table from './personal-website-texts/D.json';
+import AboutTexts from './personal-website-texts/About_texts.json';
 
 const hrStyle = {
   color: 'white',
@@ -76,6 +76,27 @@ const EducationPage = ({language}) => {
 
 
       <EducationTableD table={D_table[2]} language={language} />
+
+
+      <EducationTableD table={D_table[3]} language={language} />
+
+
+      <EducationTableD table={D_table[4]} language={language} />
+
+
+
+      <EducationTableD table={D_table[5]} language={language} />
+
+
+
+
+      <EducationTableD table={D_table[6]} language={language} />
+
+
+
+
+      <EducationTableD table={D_table[7]} language={language} />
+
 
 
       {/* <p style={{ color: '#4ecdff' }}>{AboutTexts['D'].extra_info}</p> */}

@@ -1,5 +1,5 @@
 import './style/StartPage.css';
-import StartPageText from './texts/StartPage_text.js';
+import StartPageText from './personal-website-texts/StartPage_text.js';
 
 const StartPage = () => {
   return (
